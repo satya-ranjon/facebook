@@ -81,6 +81,10 @@ select {
 }
 h4 {
   font-size: 22px;
+  font-family: "Roboto", sans-serif;
+}
+a {
+  text-decoration: none;
 }
 .navbar {
   display: flex;
@@ -156,4 +160,86 @@ h4 {
   padding: 4.5px 2vh;
   background: #e4e6eb;
   border-radius: 4.3px;
+}
+
+.informations {
+  font-family: "Roboto", sans-serif;
+}
+.informations .info {
+  display: flex;
+  justify-content: start;
+  margin-top: 1vh;
+}
+.informations .info img {
+  width: 20px;
+  height: 20px;
+  margin-top: 2px;
+}
+.informations .info p {
+  padding-left: 1vh;
+}
+.informations .info a {
+  font-weight: bold;
+  color: #000000;
+  text-decoration: none;
+}
+
+.informations .followr img {
+  width: 15px;
+  height: 15px;
+}
+
+h4.friends {
+  font-size: 17.3px;
+  margin-top: 2vh;
+}
+h4.posts {
+  font-size: 16.3px;
+  margin-top: 2vh;
+  color: #000000;
+}
+
+.docs {
+  color: #808289;
+  margin-top: 2vh;
+  text-align: center;
+  padding: 3vh 0vh;
+}
+.docs img {
+  margin: 0 auto;
+  width: 85px;
+  height: 80px;
+}
+
+.bar {
+  border-bottom: 1.2vh solid #bcc0c4;
+}
+
+.lock {
+  display: flex;
+  justify-content: start;
+  font-family: "Roboto", sans-serif;
+  color: #808289;
+}
+.lock .lock_icon {
+  color: #ffff;
+  background-color: #1776f1;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  font-size: 20px;
+  text-align: center;
+  padding: 1.3vh 0;
+  margin-top: 2vh;
+}
+.lock .text_lock {
+  padding-left: 1vh;
+  font-size: 14.2px;
+}
+.lock .text_lock a {
+  color: #1776f1;
+  font-weight: bold;
+}
+.lock .text_lock .posts {
+  font-size: 20px;
 }

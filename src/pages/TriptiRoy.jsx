@@ -1,10 +1,16 @@
 import { AiOutlineArrowLeft, AiTwotoneMessage } from "react-icons/ai";
-import { BsSearch, BsThreeDots } from "react-icons/bs";
+import { BsSearch, BsThreeDots, BsFillShieldLockFill } from "react-icons/bs";
 import { ImUserPlus } from "react-icons/im";
 import ProfileImage from "../assets/profile.jpg";
 import { Link } from "react-router-dom";
-// import infoImg from "../assets/info.png";
-import infoImg1 from "../assets/info1.png";
+import home from "../assets/icon/home.png";
+import location from "../assets/icon/location.png";
+import love from "../assets/icon/love.png";
+import more from "../assets/icon/more.png";
+import study from "../assets/icon/study.png";
+import work from "../assets/icon/work.png";
+import follower from "../assets/icon/wifi.png";
+import docs from "../assets/icon/docs.png";
 
 const TriptiRoy = () => {
   return (
@@ -48,7 +54,78 @@ const TriptiRoy = () => {
           </div>
         </div>
         <div className="informations">
-          <img src={infoImg1} alt="" />
+          <div className="info">
+            <img src={work} alt="work" />
+            <p>
+              Works at <Link to="/login">Student</Link>
+            </p>
+          </div>
+          <div className="info">
+            <img src={study} alt="work" />
+            <p>
+              Studied at
+              <Link to="/login"> Sonapur Hazi M.S Hoque High School</Link>
+            </p>
+          </div>
+          <div className="info">
+            <img src={study} alt="work" />
+            <p>
+              Studied at
+              <Link to="/login"> Dinajpur Govt. Women College, Dinajpur</Link>
+            </p>
+          </div>
+          <div className="info">
+            <img src={home} alt="work" />
+            <p>
+              Lives in <Link to="/login">Thakurgaon, Rājshāhi, Bangladesh</Link>
+            </p>
+          </div>
+          <div className="info">
+            <img src={location} alt="work" />
+            <p>
+              From <Link to="/login"> Baliadangi, Dhaka, Bangladesh</Link>
+            </p>
+          </div>
+          <div className="info">
+            <img src={love} alt="work" />
+            <p>Single</p>
+          </div>
+          <div className="info followr">
+            <img src={follower} alt="work" />
+            <p>
+              Followed by <Link to="/login"> 3k people</Link>
+            </p>
+          </div>
+          <div className="info">
+            <img src={more} alt="work" />
+            <p>
+              Add Tripti Roy as a friend to see the details she shares on her
+              profile
+            </p>
+          </div>
+        </div>
+        <h4 className="friends">Friends</h4>
+        <h4 className="posts">Posts</h4>
+
+        <div className="docs">
+          <img src={docs} alt="docs" />
+          <h4 className="posts">No Posts or Tags</h4>
+          <p>Be the first to write or share something</p>
+        </div>
+      </div>
+      <div className="bar"></div>
+      <div className="container">
+        <div className="lock">
+          <div className="lock_icon">
+            <BsFillShieldLockFill />
+          </div>
+          <div className="text_lock">
+            <h4 className="posts">Tripti Roy locked her profile</h4>
+            <span>
+              Only her friends can see what she shares on her profile.{" "}
+              <Link to="/login">Learn more</Link>
+            </span>
+          </div>
         </div>
       </div>
     </div>
