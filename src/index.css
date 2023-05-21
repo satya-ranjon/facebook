@@ -131,6 +131,7 @@ h4 {
   padding: 4.5px 23.8px;
   border-radius: 4.3px;
   font-family: "Roboto", sans-serif;
+  border: none;
 }
 .button .user_add {
   padding-top: 1px;
