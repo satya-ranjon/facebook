@@ -221,6 +221,12 @@ h4.posts {
   font-family: "Roboto", sans-serif;
   color: #808289;
 }
+
+.lock img {
+  height: 38px;
+  width: 38px;
+  margin-top: 2vh;
+}
 .lock .lock_icon {
   color: #ffff;
   background-color: #1776f1;

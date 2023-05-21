@@ -1,5 +1,5 @@
 import { AiOutlineArrowLeft, AiTwotoneMessage } from "react-icons/ai";
-import { BsSearch, BsThreeDots, BsFillShieldLockFill } from "react-icons/bs";
+import { BsSearch, BsThreeDots } from "react-icons/bs";
 import { ImUserPlus } from "react-icons/im";
 import ProfileImage from "../assets/profile.jpg";
 import { Link } from "react-router-dom";
@@ -11,6 +11,7 @@ import study from "../assets/icon/study.png";
 import work from "../assets/icon/work.png";
 import follower from "../assets/icon/wifi.png";
 import docs from "../assets/icon/docs.png";
+import lock from "../assets/icon/lock.png";
 
 const TriptiRoy = () => {
   return (
@@ -116,9 +117,7 @@ const TriptiRoy = () => {
       <div className="bar"></div>
       <div className="container">
         <div className="lock">
-          <div className="lock_icon">
-            <BsFillShieldLockFill />
-          </div>
+          <img src={lock} alt="" />
           <div className="text_lock">
             <h4 className="posts">Tripti Roy locked her profile</h4>
             <span>
